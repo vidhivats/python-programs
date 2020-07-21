@@ -25,7 +25,6 @@ def calculate():
 	selection = int(input("\npress 1 for Calculate again\n press 2 for Exit\n"))
 	return selection
 
-
 def runCalculate(inp):
 	if(inp == 1):
 		choice = calculate()
